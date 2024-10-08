@@ -240,6 +240,11 @@ svg[class^=slider_] > rect[fill='white'] /* settings checkbuttons slider */ {
 	}
 }
 
+/*"ReadAllNotifications" button*/
+.vc-ranb-button {
+	font-size: 12px;
+}
+
 /* move chat bar out */
 :root {
 	--custom-channel-textarea-text-area-height: 56px;
@@ -501,6 +506,7 @@ svg[class^=slider_] > rect[fill='white'] /* settings checkbuttons slider */ {
 	font-family: var(--font-primary);
 	font-size: 16px;
 	font-weight: 500;
+	white-space: no-wrap;
 }
 
 /* adjust divider/border thickness */
@@ -575,7 +581,7 @@ html.theme-light {
 	--bg-base-tertiary: var(--primary-660);
 	--bg-brand: var(--brand-500);
 	--bg-mod-faint: var(--bg-1);
-	--bg-mod-strong: hsl(228 calc(1 * 6%) 32.5% / 0.54);
+	--bg-mod-strong: var(--bg-2);
 	--bg-mod-subtle: hsl(228 calc(1 * 6%) 32.5% / 0.48);
 	--bg-surface-overlay: var(--bg-0);
 	--bg-surface-overlay-tmp: var(--primary-800);
@@ -693,7 +699,7 @@ html.theme-light {
 	--halo-positive: hsl(145 calc(1 * 65%) 39.2% / 0.24);
 	--header-muted: var(--primary-360);
 	--header-primary: var(--txt-1);
-	--header-secondary: var(--primary-330);
+	--header-secondary: var(--txt-2);
 	--home-background: none;
 	--home-card-resting-border: hsl(0 calc(1 * 0%) 0% / 0);
 	--icon-muted: var(--primary-400);
